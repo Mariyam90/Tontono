@@ -1,0 +1,415 @@
+/* Start our Frame work */
+* {
+      -webkit-box-sizing:border-box;
+      box-sizing:border-box;
+      -o-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+}
+.container {
+    width:1200px;
+    margin: auto;
+} 
+.table{
+     height: 100%;
+    display: table;
+}
+.table-row{
+    display: table-row;
+}
+.text-center{
+    text-align: center;
+}
+.upperCase{
+    text-transform: capitalize;
+}
+.mainColor{
+    color:#f7600e;
+}
+.mainBackground{
+    background-color:#f7600e;
+}
+/* End our Frame work */
+body{
+    margin: 0;
+}
+.header {
+    background: url(../img/%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7.JPG) no-repeat;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;  
+}
+ .overlay{
+    background: rgba(49,55,61,.7);
+    width:100%;
+    height: 100%;
+}
+.header .buttons button {
+    background: transparent;
+    padding: 5px;
+    width:180px;
+    border-radius: 10px;
+    border:1px solid #909090;
+    font-size: 14px;
+    margin: 0 8px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;   
+}
+.header .navbar {
+    overflow: hidden;
+    padding: 35px 40px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%
+}
+.logo{
+    font-size: 24px;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    text-align: center;   
+}
+.arrow i {
+    border:1px solid #7b7b7b;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding:5px;
+    margin-bottom: 20px;
+    color:#7b7b7b;
+    cursor: pointer;
+}
+.header .navbar .links{
+    float: right;
+}
+.header .navbar .links i {
+    margin-left: 10px;   
+}
+.header .intro h1{
+    margin: 0;
+    font-weight: 800;
+    font-size: 50px;   
+}
+.header .intro p{
+    margin:5px 0 40px;
+    line-height: 1.8;
+    font-size: 20px;
+    color: #e2e2e2;
+}
+.header .buttons button:hover{
+    background-color: #f7600e;
+    color:white;
+}
+.features{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.features .box {
+    width:22%;
+    float: left;
+    margin-right: 4%;
+}
+.features .box:last-child{
+    margin-right: 0;
+}  
+.features .box i{
+    color:#f7600e;
+    border:1px solid #DDD;
+    width:100px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+}
+.features .box i:hover{
+     background-color:#f7600e;
+    color: white;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;   
+}
+.features .box h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color:#505050;
+}
+.features .box p{
+    line-height: 2;
+    color: #888;
+}
+.subscribe{
+    background: url(../img/%D8%AA%D9%86%D8%B2%D9%8A%D9%84.jpg)no-repeat ;
+    -webkit-background-size : cover;
+    -o-background-size : cover;
+    -moz-background-size : cover;
+    background-size : cover;
+    height: 250px;
+}
+.subscribe form {
+    padding: 100px 0;
+    width:700px;
+    margin:auto;
+    text-align: center;
+}
+.subscribe form input[type="email"]{
+    font-size: 20px;
+    width:280px;
+    padding: 8px;
+    border-radius:10px;
+    position: relative;
+    top:2px;   
+}
+.subscribe form button  {
+   padding:14px;
+   width:220px;
+   background-color:#f7600e;
+   border:none;
+   color:#FFF;
+   border-radius:10px;
+   margin-left:20px;
+   font-size: 14px;    
+}
+:-webkit-input-placeholder{
+    font-size: 14px;
+}
+:-o-input-placeholder{
+    font-size: 14px;
+}
+.subscribe ::-ms-input-placeholder{
+    font-size: 14px;
+}
+.ourwork {
+    padding: 50px 0;
+}
+.ourwork h2 {
+    font-weight: 500px;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.ourwork h2~ p{
+    line-height: 2px;
+    margin: 10px 0 40px ;
+}
+.showmore{
+    background: transparent;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    color:#555;
+    margin-top:20px;
+    padding:10px;
+    width:180px;
+    text-align: center;   
+}
+.showmore:hover{
+    background-color:#f7600e;
+}
+.hidden{
+    display: none;
+}
+.itemsbox {
+    overflow: hidden
+}
+.itemsbox .item{
+    float: left;
+    width: 32%;
+    overflow: hidden;
+    margin-left: 1.3333333%;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    position: relative;
+    height: 403px;
+}
+.itemsbox .item .over{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,96,14,.8);
+    color:white;
+    display: none;
+}
+.itemsbox .item:hover .over{
+    display: block;
+}
+.itemsbox .item .over h4{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.itemsbox .item .over p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1;   
+}
+.itemsbox .item .over button{
+    background: transparent;
+    border:1px solid #FFF;
+    width:180px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.itemsbox .item .over button:hover{
+     background-color:white;
+    color:#f7600e    
+}
+.fa-chevron-circle-left:hover{
+    color: #f7600e;
+}
+.ourTeam{
+    padding:0;
+    
+}
+.ourTeam h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.ourTeam .main{
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+    font-size: 20px;   
+}
+.ourTeam .theTeam {
+    overflow: hidden;
+}
+.theTeam .person{
+    float: left;
+    width:23%;
+    margin-left: 1%;
+    color: #888;   
+}
+.theTeam .person:hover img {
+    filter: none;
+    -webkit-filter:grayscale(0);
+}
+.theTeam .person:hover {
+    color: #555;}
+.theTeam .person:hover  .fa-facebook{
+    background-color: #3b5998;
+} 
+.theTeam .person:hover  .fa-twitter{
+    background-color: #55acee;
+}
+.theTeam .person:hover  .fa-google{
+    background-color: #dc4e41;
+}
+.theTeam .person img {
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter:grayscale(1);
+}
+.theTeam .person p{
+    font-size: 15px;   
+}
+.theTeam .person .socialIcons i{
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 50px;       
+}
+.contacts {
+    background: url(../img/%D8%A7%D9%84%D8%AA%D9%82%D8%A7%D8%B7.JPG)
+no-repeat;}
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+.contacts .overlay{
+    padding: 50px 0;
+    color: #FFF;
+} 
+.contacts  h2 {
+    padding-top:30px;
+    font-size: 35px;
+}
+.contacts  form{
+    width:700px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.contacts  form input[type="email"]{
+   width:48%;
+   float: right;
+   padding: 0 10px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 10px;
+   border: 1px solid #CCC;
+   background: transparent;
+}
+.contacts  form input[type="text"]{
+   width:48%;
+   float: left;
+   padding: 0 10px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 10px;
+   border: 1px solid #CCC;
+   background: transparent;
+}
+.contacts  form textarea{
+    margin-top: 20px;
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    padding:10px;
+    background: transparent;
+}
+.info {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.info button{
+    padding:14px;
+    width:220px;
+    background-color:#f7600e;
+    border:none;
+    color:#FFF;
+    border-radius:10px;
+    font-size: 14px; 
+    float: left;
+}
+.info .formIcon i{
+    background-color: #9da1a5;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 50px;
+    float: right;
+    margin: 5px;      
+}
+.info .formIcon .fa-facebook{
+    background-color: #3b5998;
+} 
+.info .formIcon .fa-twitter{
+    background-color: #55acee;
+}
+.info .formIcon .fa-google{
+    background-color: #dc4e41;
+}
+.footer{
+    background:black;
+    color: #FFF;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.footer .copyright{
+    float:left;
+}
+.design{
+    float: right;
+}
